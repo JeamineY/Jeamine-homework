@@ -1,0 +1,185 @@
+
+body{
+  background-color: #f0efef;
+}
+
+nav{
+  background-color: #033048;
+  height: 150px;
+  width: 100%;
+}
+nav h1{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin: 0 0 0 5%;
+  padding-top: 40px;
+}
+
+nav ul{
+  height: auto;
+  padding: 5px 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  color: #f9e42e;
+} 
+nav li{
+  display: inline;
+  padding: 20px;
+}
+div{
+  background-color: #f0efef;
+  height: 900px;
+  width: 100%;
+}
+p:first-child:first-letter { 
+  float: left; 
+  color: #606161; 
+  font-size: 35px; 
+  line-height: 50px; 
+  padding-top: 4px; 
+  padding-right: 8px;
+  padding-left: 3px; 
+  font-family: 'Open Sans';
+ }
+.first-entry{
+  font-family: 'Open Sans', sans-serif;
+  height: 1000px;
+  width: 700px;
+  text-align: left;
+  padding: 20px 20px;
+  margin: 20px 20px; 
+  border-bottom: solid #121212;
+  border-width: 1px;
+}
+.first-entry h2{
+  
+  font-size: 40px;
+  font-style: semibold;
+  color: #033048;
+  padding: 1% 1%;
+}
+
+.first-entry p{
+  font-size: 24px;
+  font-weight: light;
+  color: #606161;
+  margin: 1%%;
+
+}
+.first-entry a{
+  display: block;
+  float: right;
+  font-size: 24px;
+  font-weight: semibold;
+  text-decoration: none;
+  margin: 1% 1%;
+
+}
+.second-entry{
+  font-family: 'Open Sans', sans-serif;
+  height: 1000px;
+  width: 700px;
+  text-align: left;
+  padding: 20px 20px;
+  margin: 20px 20px; 
+  border-bottom: solid #121212;
+  border-width: 1px;
+}
+.second-entry h2{
+  font-size: 40px;
+  font-style: semibold;
+  color: #033048;
+  padding: 1% 1%;
+}
+.second-entry p{
+  font-size: 24px;
+  font-weight: light;
+  color: #606161;
+}
+.second-entry a{
+  display: block;
+  float: right;
+  font-size: 24px;
+  font-weight: semibold;
+  text-decoration: none;
+  margin: 1% 1%;
+}
+
+.call-out{
+  height: 150px;
+  width: 100%;
+  background-color: #f9e42e;
+}
+.call-out a{
+  display: inline;
+  float: left;
+  height: 70px;
+  width: 25%;
+  background-color: #033048;
+  margin: 2% 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3;
+  
+}
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+footer h2{
+  display: block;
+  padding-left: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  align: center;
+}
+footer img{
+  display: inline;
+  padding-left: 35%;
+}
+footer p{
+  display: block;
+  float: left;
+  padding-left: 49%;
+  padding-top: 20px;
+
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/*didn't get a chance to get to the right-hand elements
+
+.right-hand-links {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+
